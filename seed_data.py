@@ -181,6 +181,9 @@ def seed():
         print(f"  Songs: {len(all_songs)}")
         print(f"  Playlists: {len(playlists)}")
         print(f"  Tags: {len(tags)}")
+        print(f"--- TEST IDs ---")
+        print(f"Nova's User ID: {users[0].id}")
+        print(f"Test Song ID: {all_songs[0][0].id}")
 
 
 if __name__ == "__main__":
