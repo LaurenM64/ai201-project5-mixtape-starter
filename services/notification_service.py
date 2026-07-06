@@ -107,7 +107,7 @@ def rate_song(user_id: str, song_id: str, score: int) -> Rating:
 
     db.session.commit()
 
-
+#Fix for bug 4
 # Notify the person who originally shared the song (if it wasn't them who rated it)
     if song.shared_by != user_id:
         create_notification(
